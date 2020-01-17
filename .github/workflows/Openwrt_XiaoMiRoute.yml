@@ -104,7 +104,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt76x8=y
-          CONFIG_TARGET_ramips_mt76x8_DEVICE_xiaomi_miwifi-nano=y
+          CONFIG_TARGET_BOARD="ramips"
           EOF
 
           # 固件压缩:
