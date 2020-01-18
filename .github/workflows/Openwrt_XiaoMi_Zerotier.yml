@@ -12,7 +12,7 @@ name: OpenWrt_XiaoMi_Zerotier
 # on:
 #   push:
 #     branches: 
-      - master
+#       - master
   # schedule:
   #   - cron: 0 20 * * *
   # release:
